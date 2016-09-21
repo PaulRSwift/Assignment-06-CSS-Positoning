@@ -36,6 +36,8 @@ img {
     margin: 20px 0;
     max-width: 500px;
     position: relative; }
+  #app-container .background img {
+    opacity: 0.2; }
   #app-container .pic-column {
     width: 50%;
     margin: 0 left; }
@@ -47,5 +49,30 @@ img {
     background: #333333;
     color: white;
     width: 75%; }
+  #app-container .titlebar {
+    display: inline-block;
+    width: 100%; }
+  #app-container .avocado {
+    position: relative; }
+  #app-container .shopingbag {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 5%;
+    color: #BBB; }
+  #app-container .letters {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'helvetica'; }
+  #app-container .shopbutton button {
+    width: 25%;
+    position: relative;
+    border: none;
+    padding: 10px;
+    top: -35px;
+    right: -250px;
+    font-size: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
